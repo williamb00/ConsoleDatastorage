@@ -22,6 +22,6 @@ namespace ConsoleDatastorage.Entities
 
         public int AddressId { get; set; }
 
-        public AddressEntity Address { get; set; } = null!;
+        public AdressEntity Adress { get; set; } = null!;
     }
 }
