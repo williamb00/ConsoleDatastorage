@@ -14,5 +14,20 @@ namespace ConsoleDatastorage.Repositories
         public CustomerRepository(DataContext context) : base(context)
         {
         }
+
+        internal void Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal CustomerEntity GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal CustomerEntity Update(CustomerEntity customerEntity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

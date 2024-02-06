@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleDatastorage.Repositories
 {
-    internal class AdressRepository : Repo<AdressEntity>
+    internal class AddressRepository : Repo<AddressEntity>
     {
-        public AdressRepository(DataContext context) : base(context)
+        public AddressRepository(DataContext context) : base(context)
         {
         }
     }

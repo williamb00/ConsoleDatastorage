@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleDatastorage.Entities
 {
-    internal class AdressEntity
+    internal class AddressEntity
     {
         [Key]
         public int Id { get; set; }
@@ -17,5 +17,6 @@ namespace ConsoleDatastorage.Entities
         public string City { get; set; } = null!;
 
         public string PostalCode { get; set; } = null!;
+        public string StreetName { get; internal set; }
     }
 }

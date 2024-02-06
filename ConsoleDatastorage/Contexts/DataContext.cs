@@ -14,7 +14,7 @@ namespace ConsoleDatastorage.Contexts
         {
         }
 
-        public DbSet<AdressEntity> Adresses { get; set; }
+        public DbSet<AddressEntity> Adresses { get; set; }
         public DbSet<BrandEntity> Brands { get; set; }
         public DbSet<CustomerEntity> Customers { get; set; }
         public DbSet<ProductEntity> Products { get; set; }
