@@ -14,5 +14,20 @@ namespace ConsoleDatastorage.Repositories
         public ProductReviewRepository(DataContext context) : base(context)
         {
         }
+
+        internal void Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal ProductReviewEntity GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal ProductReviewEntity Update(ProductReviewEntity productReviewEntity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

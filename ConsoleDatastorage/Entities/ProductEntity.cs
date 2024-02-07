@@ -17,5 +17,6 @@ namespace ConsoleDatastorage.Entities
         public string Brand { get; set; } = null!;
 
         public decimal Price { get; set; }
+        public int BrandId { get; internal set; }
     }
 }
